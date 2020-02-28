@@ -7,27 +7,30 @@
 		<title>Node Introduction</title>
 		<!-- Bootstrap link -->
 		<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
 		<link rel="stylesheet" href="css/stylesheet.css">
 	</head>
-	<body class="bg-secondary">
+	<body class="">
 
 		<!-- Website header -->
-		<div class="bg-danger py-3">
-			<h1 class="text-dark display-2 text-center">Contact Developer</h1>
+		<div class="">
+			<h1 class="text-center">Contact Developer</h1>
 			<a href="about.html" class="primary">About Page</a>
 			<a href="index.html" class="primary">Home Page</a>
 		</div>
 		<!-- Header ends -->
 
 		<!-- Website contents -->
-		<div class="container shadow mb-5 bg-light">
-			<form action="">
+			<form class="centered" action="sendForm" method="post">
 				<label for="name">Name:</label>
-				<input type="text" placeholder="enter name" class="form-control">
+				<input type="text" placeholder="enter name" name="username" class="form-control">
+        <br>
 				<label for="address">Address:</label>
-				<input type="text" placeholder="Enter Street address" class="form-control">
+				<input type="text" placeholder="Enter Street address" name="address" class="form-control">
+        <br>
+				<input type="submit" class=" teal accent-4" id="submit" value="submit">
 			</form>
-		</div>
+
 		<!-- Website contents end -->
 
 		<!-- Footer -->
@@ -46,6 +49,6 @@
 		<!-- <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script> -->
 		<!-- <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
 		<!-- Custom scripts -->
-		<!-- <script src="js/script.js"></script> -->
+		<script src="js/script.js"></script>
 	</body>
 </html>

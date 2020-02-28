@@ -5,10 +5,11 @@
   "main": "Gruntfile.js",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "grunt-contrib-jshint": "^2.1.0",
     "grunt": "^1.0.4",
+    "grunt-contrib-jshint": "^2.1.0",
     "grunt-contrib-watch": "^1.1.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0-rc.2"
   },
   "devDependencies": {
     "grunt-contrib-sass": "^1.0.0",
